@@ -1,0 +1,6 @@
+#ifndef BR_DEV_PEDROLAMARAO_GRADLE_METAL_BASE_H
+#define BR_DEV_PEDROLAMARAO_GRADLE_METAL_BASE_H
+
+int base (int argc, char * argv []);
+
+#endif // BR_DEV_PEDROLAMARAO_GRADLE_METAL_BASE_H

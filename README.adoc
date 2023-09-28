@@ -1,0 +1,8 @@
+= gradle transitivity exercise
+
+We aim to build Gradle plugins providing custom configurations akin to "api" and "implementation".
+
+This project defines plugin `custom` with sources in `buildSrc`.
+This plugin defines dependency scopes `customApi` and `customImplementation`, and resolvable configurations `customCompile` and `customRuntime`.
+Our goal is for `customCompile` and `customRuntime` to resolve like Java plugin's `compileClasspath` and `runtimeClasspath` respectively.
+
